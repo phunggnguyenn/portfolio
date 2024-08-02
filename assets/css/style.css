@@ -10,8 +10,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Inconsolata", monospace;
-  color: #0d1e2d;
+  font-family: "Inconsolata", sans-serif;
+  color: #1d1e1f;
 }
 
 a {
@@ -180,8 +180,26 @@ h6,
   font-size: 16px;
 }
 
+.h5 {
+  font-family: "Inconsolata", sans-serif;
+  padding: 8px 15px;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.h6 {
+  font-family: "Inconsolata", sans-serif;
+  padding: 8px 15px;
+  font-size: 16px; /* Adjusted to a more reasonable size */
+  font-weight: 300; /* Adjusted to a valid weight */
+  color: #adadad;
+}
+
 .heading {
-  font-size: 28px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #3f3f3f;
 }
 
 .readmore {
@@ -337,7 +355,7 @@ h6,
 --------------------------------------------------------------*/
 /* Custom Navmenu */
 .custom-navmenu {
-  background: #0d1e2d;
+  background: #3f3f3f;
 }
 
 .custom-navmenu .custom-menu,
@@ -397,6 +415,8 @@ h6,
 
 .custom-navbar .navbar-brand {
   font-size: 1.7rem;
+  color: #3f3f3f;
+  font-weight: 700;
 }
 
 /* Burger */
